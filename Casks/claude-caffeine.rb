@@ -1,11 +1,11 @@
 cask "claude-caffeine" do
-  version "1.3.5"
-  sha256 "1a7c279fab9c1635477b52ddae50bc77d270222a527c09c61528d5d4ae780c8c"
+  version "1.3.6"
+  sha256 "47b2039c9b1676f17716ceaac935fc8679d77e6e7d0dc731bdd02d78a3e74f17"
 
   url "https://github.com/jmslau/claude-caffeine/releases/download/v#{version}/Claude-Caffeine.app.zip",
       verified: "github.com/jmslau/claude-caffeine/"
   name "Claude Caffeine"
-  desc "Keeps your Mac awake while Claude Code is working"
+  desc "Keeps your Mac awake while Claude Code or a local Cursor agent is working"
   homepage "https://github.com/jmslau/claude-caffeine"
 
   depends_on macos: ">= :ventura"
